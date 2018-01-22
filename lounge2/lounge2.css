@@ -1,0 +1,65 @@
+body{
+font-size: small;
+font-family: Verdana, Helvetica, Arial;
+}
+
+h1, h2{
+color: #007e7e;
+}
+
+h1{
+font-size: 150%;
+}
+
+h2{
+font-size: 130%;
+}
+
+p{
+line-height: 1.6em;
+}
+
+#guarantee{
+background-color: #a7cece;
+border-style: dotted;
+border-color: white;
+border-width: 3px;
+font-family: Georgia;
+font-style:italic;
+color: #444444;
+line-height: 1.9em;
+padding: 25px;
+margin-left: 30px;
+background-image: url(images/star.gif);
+background-repeat: no-repeat;
+padding-left: 80px;
+}
+
+a{
+color: red;
+}
+
+a#elixir:link{
+color: #007e7e;
+}
+
+a#elixir:visited{
+color:#333333;
+}
+
+a#elixir:hover{
+color: white;
+background-color: aquamarine;
+}
+
+a#elixir:active{
+color: #999999;
+}
+
+a:link{
+color:aquamarine;
+}
+
+a:visited{
+color: black;
+}
