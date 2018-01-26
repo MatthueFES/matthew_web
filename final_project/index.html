@@ -1,30 +1,70 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Final Project </title>
-    </head>
-    <body>
-<center> <img src="images/overwatch.jpg" alt title="Overwatch Characters" usemap="#Overwatch" border=1/> </center>
+<!-- Most info was from Overwatch's website or from their gamepedia.-->
+<head>
+    <title> Final Project </title>
+</head>
+<style>
+    body {
+        background-image: url("images/overwatchbg.jpg");
+    }
 
-<map name="Overwatch">   
-<area shape="rect" coords="1,27,111,316" href="https://playoverwatch.com/en-us/heroes/pharah/">
-    </map>
-    
-<h3> Pulse Pistols </h3>    
-Tracer shoots both pistol atht deals heavy burst damage. Her pistols have a cone of fire and damage falloff making them most effective at close range.    
-    
-<h3> Blink </h3>    
-<p> This ability is one of most important features of tracer. Blink allows tracer to teleport over a short distance in the direction she is moving. (the maximum charge of blinks is 3.) This ablility allows her to move unpredictable able to confuse her enemies giving a massive advantage.</p>    
-    
-<h3> Recall </h3>    
-<p> When activated, Tracer will rewind to three seconds in the past, Setting her HP and position at that time. it also reloads her pistol and removes debuff.</p>    
-    
- <h3> Pulse Bomb </h3>  
- <p> </p>
-    
-    </body>
-    
-    
-    
-    
+#logo{
+background-color: white;
+padding: 15px;
+}
+
+p{
+background-color: white;
+padding: 5px;
+font-family: Helvetica, sans-serif;
+font-size: 18px;
+}
+
+#desc{
+    height: 500px;
+    width: 2000px;
+}
+
+em{
+background-color: white; 
+font-size: 17px;
+}
+</style>
+
+<body>
+<img id="logo" src="images/ow.png" alt title="Overwatch logo">
+<br><br><br><br>
+<em> Soldiers. Scientists. Adventurers. Oddities. 
+
+In a time of global crisis, an international task force of heroes banded together to restore peace to a war-torn world: OVERWATCH.
+
+Overwatch ended the crisis, and helped maintain peace in the decades that followed, inspiring an era of exploration, innovation, and discovery. But, after many years, Overwatch &apos;s influence waned, and it was eventually disbanded.
+
+Now, conflict is rising across the world again, and the call has gone out to heroes old and new. Are you with us? </em>
+
+<p> Overwatch is a team-based multiplayer online first-person shooter video game developed and published by Blizzard Entertainment. It was released in May 2016 for Windows, PlayStation 4, and Xbox One. Overwatch assigns players into two teams of six, with each player selecting from a roster of over 20 characters, known in-game as "heroes", each with a unique style of play, whose roles are divided into four general categories: Offense, Defense, Tank, and Support. Players on a team work together to secure and defend control points on a map or escort a payload across the map in a limited amount of time.</p>
+
+<p> These five heroes are in Overwatch, each having different kinds of playstyles, weapons, and abilities. Click on anyone one of them to get a more detail explaination!</p>
+
+<br><br><br><br><br><br><br><br>
+
+    <center> <img src="images/overwatch.jpg" alt title="Overwatch Characters" usemap="#Overwatch" border=1/> </center>
+
+    <map name="Overwatch">   
+<area shape="rect" coords="1,27,111,316" href="pharah_ow.html" target="desc">
+<area shape="rect" coords="124,104,209,327" href="reaper_ow.html" target="desc">    
+<area shape="rect" coords="222,110,312,330" href="tracer_ow.html" target="desc">   
+<area shape="rect" coords="310,87,416,328" href="soldier76_ow.html" target="desc">  
+<area shape="rect" coords="451,66,600,319" href="bastion_ow.html" target="desc"> 
+</map>
+
+
+    <iframe id="desc" name="desc"> </iframe>
+
+</body>
+
+
+
+
 </html>
